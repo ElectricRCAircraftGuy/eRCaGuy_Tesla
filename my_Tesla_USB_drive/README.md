@@ -3,6 +3,23 @@ _Tested on 2024 Tesla Model Y._
 
 # How to use the USB
 
+TODO: describe partitioning the drive
+//////
+> Must **not** contain a base-level TeslaCam folder.
+> Must **not** contain any map update or firmware update files.
+
+So, you must either use a USB hub and separate drives for each purpose, **or** partition a single drive into multiple partitions.
+///////
+
+Partitions on a 128 GB USB drive:
+1. exFAT partition named TESLADRIVE for dash camera and sentry mode video recordings
+1. exFAT for music 
+1. exFAT for light shows
+
+////// HOw to format to exFAT--see my answer here: https://unix.stackexchange.com/a/746801/114401
+
+///////////
+
 1. Copy the contents of this folder to the root of your USB drive. 
 1. Your root folder structure on the USB will now look like this: 
     ```bash

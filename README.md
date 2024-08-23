@@ -14,3 +14,9 @@ Custom lock sounds, light shows, etc.
     1. https://github.com/teslamotors/light-show
 1. https://xlights.org/
     1. https://github.com/xLightsSequencer/xLights - download prebuilt software from the ["Releases"](https://github.com/xLightsSequencer/xLights/releases) page here. Works on Windows, Mac, & Linux.
+
+
+# Other references
+
+1. Try this: https://teslamotorsclub.com/tmc/posts/6857063/
+
