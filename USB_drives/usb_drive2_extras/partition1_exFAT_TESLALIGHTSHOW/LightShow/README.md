@@ -7,10 +7,14 @@ NB: You do NOT have to copy the `src` dir to the USB drive in the Tesla. It is f
 
 # Tools
 
-1. Official: https://github.com/teslamotors/light-show
-1. https://lightmytesla.com/
-    1. https://lightmytesla.com/dashboard/converter
-1. https://lumos-lightshow.web.app/
+1. Official from Tesla: https://github.com/teslamotors/light-show
+1. Online light show repositories:
+    1. https://xlightshows.io/
+    1. https://teslalightshare.io/
+1. Online light show generators (may be AI-based):
+    1. https://lightmytesla.com/
+        1. https://lightmytesla.com/dashboard/converter
+    1. https://lumos-lightshow.web.app/
 
 
 ## To download YouTube video as MP3
@@ -109,22 +113,45 @@ https://lumos-lightshow.web.app/
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=A2VpR8HahKc&list=RDA2VpR8HahKc&start_radio=1`
 1. [x] Vanilla Ice-Ice Ice Baby
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=rog8ou-ZepE&list=RDrog8ou-ZepE&start_radio=1`
-1. [ ] Eiffel 65-Blue (Da Ba Dee)
+1. [x] Eiffel 65-Blue (Da Ba Dee)
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=68ugkg9RePc&list=RD68ugkg9RePc&start_radio=1`
 1. [x] Metallica-Enter Sandman
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=CD-E-LDc384&list=RDCD-E-LDc384&start_radio=1`
-1. [ ] ItaloBrothers-Stamp on the Ground
+1. [x] ItaloBrothers-Stamp on the Ground
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=JA2TPK0NeFI&list=RDJA2TPK0NeFI&start_radio=1`
-1. [x]] Bad Wolves, Cranberries-Zombie
+1. [x] Bad Wolves, Cranberries-Zombie
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=m-Q0Ng61bT4&list=RDm-Q0Ng61bT4&start_radio=1`
-1. [ ] Chumbawamba-Tubthumping
+1. [x] Chumbawamba-Tubthumping
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=oRQMxBW0cOo&list=RDoRQMxBW0cOo&start_radio=1`
-1. [ ] Michel Teló-Ai Se Eu Te Pego
+1. [x] Michel Teló-Ai Se Eu Te Pego
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=ALRxqOpMewE&list=RDALRxqOpMewE&start_radio=1`
-1. [ ] Alan Walker & K-391-Ignite
+1. [x] Alan Walker & K-391-Ignite
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=zrwTYozyzYA&list=RDzrwTYozyzYA&start_radio=1`
-1. [ ] Breaking Benjamin-So Cold
+1. [x] Breaking Benjamin-So Cold
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=UkI4KejmSfY&list=RDUkI4KejmSfY&start_radio=1`
+1. [x] DJ Layla-City of Love
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=XCvwYH3VHqY&list=RDXCvwYH3VHqY&start_radio=1`
+1. [x] Karkaz, Maria Aasen-Fire
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=GjE2REnb1o8&list=RDGjE2REnb1o8&start_radio=1`
+1. [x] Laback, Alexis Carlier-Titanic EDM
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=-sMdatCs4Pc&list=RD-sMdatCs4Pc&start_radio=1`
+1. [x] Laback, Alexis Carlier-Gladiator EDM
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=oFsm7zkVaFE&list=RDoFsm7zkVaFE&start_radio=1`
+1. [x] Laback-Time (Inception)
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=10aqxgbfYrc&list=RD10aqxgbfYrc&start_radio=1`
+1. [x] Lindsey Stirling-Shadows
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=wNvOqHtd74Q&list=RDwNvOqHtd74Q&start_radio=1`
+1. [x] Alan Walker-Faded
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=60ItHLz5WEA&list=RD60ItHLz5WEA&start_radio=1`
+1. [x] Alan Walker, Raaban, Tungevaag-Faded remix
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=pkvLpGfSdb8&list=RDpkvLpGfSdb8&start_radio=1`
+1. [x] GIGI Waterproof-King of the Night
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=guTL50bjR7g&list=RDguTL50bjR7g&start_radio=1`
+1. [x] Anthony Keyrouz, Paradigm-Wake Me Up in Paris
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=5ncXRJM7Ln4&list=RD5ncXRJM7Ln4&start_radio=1`
+1. [x] Bahubali-The Beginning-Khoya Hain
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=Q_y1rTzNY7A&list=RDQ_y1rTzNY7A&start_radio=1`
+
 
 Download commands only:
 ```bash
@@ -144,5 +171,17 @@ yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=m-Q0Ng61bT4&list=RD
 yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=oRQMxBW0cOo&list=RDoRQMxBW0cOo&start_radio=1 &
 yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=ALRxqOpMewE&list=RDALRxqOpMewE&start_radio=1 &
 yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=zrwTYozyzYA&list=RDzrwTYozyzYA&start_radio=1 &
-yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=UkI4KejmSfY&list=RDUkI4KejmSfY&start_radio=1
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=UkI4KejmSfY&list=RDUkI4KejmSfY&start_radio=1 &
+
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=XCvwYH3VHqY&list=RDXCvwYH3VHqY&start_radio=1 &
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=GjE2REnb1o8&list=RDGjE2REnb1o8&start_radio=1 &
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=-sMdatCs4Pc&list=RD-sMdatCs4Pc&start_radio=1 &
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=oFsm7zkVaFE&list=RDoFsm7zkVaFE&start_radio=1 &
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=10aqxgbfYrc&list=RD10aqxgbfYrc&start_radio=1 &
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=wNvOqHtd74Q&list=RDwNvOqHtd74Q&start_radio=1 &
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=60ItHLz5WEA&list=RD60ItHLz5WEA&start_radio=1 &
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=pkvLpGfSdb8&list=RDpkvLpGfSdb8&start_radio=1 &
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=guTL50bjR7g&list=RDguTL50bjR7g&start_radio=1 &
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=5ncXRJM7Ln4&list=RD5ncXRJM7Ln4&start_radio=1 &
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=Q_y1rTzNY7A&list=RDQ_y1rTzNY7A&start_radio=1 &
 ```
