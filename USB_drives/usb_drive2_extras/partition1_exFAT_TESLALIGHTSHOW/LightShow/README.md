@@ -78,10 +78,11 @@ yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=us-RbY4ebZQ
 #### LightShow generation settings
 
 https://lumos-lightshow.web.app/
+- NB: rate limit: 10 per hour
 1. [x] Closures (doors, windows, trunk)
 1. [ ] Left/Right symmetry
 1. Tesla Model: 3/Y
-1. Beat sensitivity: 1.0
+1. Beat sensitivity: 0.9
     https://lumos-lightshow.web.app/guide.html: 
     > Adjust how aggressively the beat detector responds. Lower values (0.0–0.3) work best for ambient or classical music; higher values (0.7–1.0) suit electronic and dance music.
 1. -> "Generate Show"
@@ -94,33 +95,33 @@ https://lumos-lightshow.web.app/
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=ViP87WipSm0`
 1. [x] Luis Fonsi, Daddy Yankee-Despacito
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=2bHBUs-k3ac&list=RD2bHBUs-k3ac`
-1. [ ] Britney Spears-Toxic Pony
+1. [x] Britney Spears-Toxic Pony
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=B6qBrZ81LlQ&list=RDB6qBrZ81LlQ&start_radio=1`
-1. [ ] Rihanna-Disturbia
+1. [x] Rihanna-Disturbia
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=a9LwyQQbaTU&list=RDa9LwyQQbaTU&start_radio=1`
-1. [ ] Diplo, Outfield-Your Love
+1. [x] Diplo, Outfield-Your Love
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=1rJS9MZaXgA&list=RD1rJS9MZaXgA&start_radio=1`
-1. [ ] Indila, Sick Legend-Derniere Danse
+1. [x] Indila, Sick Legend-Derniere Danse Hardstyle
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=Gl1icqhTSIg`
-1. [ ] Caravan Palace-Lone Digger
+1. [x] Caravan Palace-Lone Digger
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=TbsBEb1ZxWA&list=RDTbsBEb1ZxWA&start_radio=1`
-1. [ ] Daft Punk-One More Time
+1. [x] Daft Punk-One More Time
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=A2VpR8HahKc&list=RDA2VpR8HahKc&start_radio=1`
-1. [ ] Vanilla Ice-Ice Ice Baby
+1. [x] Vanilla Ice-Ice Ice Baby
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=rog8ou-ZepE&list=RDrog8ou-ZepE&start_radio=1`
 1. [ ] Eiffel 65-Blue (Da Ba Dee)
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=68ugkg9RePc&list=RD68ugkg9RePc&start_radio=1`
-1. [ ] Metallica-Enter Sandman
+1. [x] Metallica-Enter Sandman
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=CD-E-LDc384&list=RDCD-E-LDc384&start_radio=1`
 1. [ ] ItaloBrothers-Stamp on the Ground
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=JA2TPK0NeFI&list=RDJA2TPK0NeFI&start_radio=1`
-1. [ ] Bad Wolves, Cranberries-Zombie
+1. [x]] Bad Wolves, Cranberries-Zombie
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=m-Q0Ng61bT4&list=RDm-Q0Ng61bT4&start_radio=1`
 1. [ ] Chumbawamba-Tubthumping
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=oRQMxBW0cOo&list=RDoRQMxBW0cOo&start_radio=1`
 1. [ ] Michel Teló-Ai Se Eu Te Pego
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=ALRxqOpMewE&list=RDALRxqOpMewE&start_radio=1`
-1. [ ] Alan Walker-Ignite
+1. [ ] Alan Walker & K-391-Ignite
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=zrwTYozyzYA&list=RDzrwTYozyzYA&start_radio=1`
 1. [ ] Breaking Benjamin-So Cold
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=UkI4KejmSfY&list=RDUkI4KejmSfY&start_radio=1`
