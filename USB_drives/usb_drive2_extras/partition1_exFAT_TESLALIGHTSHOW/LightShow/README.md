@@ -79,7 +79,7 @@ yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=us-RbY4ebZQ
         1. https://lightmytesla.com/dashboard/activity?highlight=cmohiovgm000kf5vgp5hrvb4b
 
 
-#### LightShow generation settings
+#### Lumos LightShow generation settings
 
 https://lumos-lightshow.web.app/
 - NB: rate limit: 10 per hour
@@ -91,8 +91,14 @@ https://lumos-lightshow.web.app/
     > Adjust how aggressively the beat detector responds. Lower values (0.0–0.3) work best for ambient or classical music; higher values (0.7–1.0) suit electronic and dance music.
 1. -> "Generate Show"
 
+My song naming conventions for Lumos-generated shows:
+1. `B0.9` means "Beat sensitivity: 0.9".
+1. `S` means "symmetric"; ie: "Left/Right symmetry: ON".
+1. Ex: `B0.9S` means "Beat sensitivity: 0.9" and "Left/Right symmetry: ON".
+
 #### More songs
 
+Songs:
 1. [x] Disturbed-Sound of Silence Cyril remix
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=uIBJJ3M76Mg`
 1. [x] La Bouche-Be My Lover
@@ -113,6 +119,9 @@ https://lumos-lightshow.web.app/
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=A2VpR8HahKc&list=RDA2VpR8HahKc&start_radio=1`
 1. [x] Vanilla Ice-Ice Ice Baby
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=rog8ou-ZepE&list=RDrog8ou-ZepE&start_radio=1`
+1. [x] Vanilla Ice-Ice Ice Baby-LightMyTesla
+    1. MP3 above. 
+    1. Light show: https://lightmytesla.com/dashboard/converter
 1. [x] Eiffel 65-Blue (Da Ba Dee)
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=68ugkg9RePc&list=RD68ugkg9RePc&start_radio=1`
 1. [x] Metallica-Enter Sandman
@@ -151,6 +160,13 @@ https://lumos-lightshow.web.app/
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=5ncXRJM7Ln4&list=RD5ncXRJM7Ln4&start_radio=1`
 1. [x] Bahubali-The Beginning-Khoya Hain
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=Q_y1rTzNY7A&list=RDQ_y1rTzNY7A&start_radio=1`
+1. [x] R3HAB-All Around The World-LightMyTesla
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=LQ7R9zHeDy8`
+    1. Light show: https://lightmytesla.com/library/r3hab-all-around-the-world-la-la-la#youtube-player
+1. [x] Bullet For My Valentine-Hearts Burst Into Fire (Clean) B0.9S
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=w5w5Up-nB5k`
+1. [x] The Guess Who-No Sugar Tonight B0.9S
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=yMG-Mi9I0-k&list=RDyMG-Mi9I0-k&start_radio=1`
 
 
 Download commands only:
