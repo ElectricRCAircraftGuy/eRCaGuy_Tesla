@@ -167,6 +167,15 @@ Songs:
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=w5w5Up-nB5k`
 1. [x] The Guess Who-No Sugar Tonight B0.9S
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=yMG-Mi9I0-k&list=RDyMG-Mi9I0-k&start_radio=1`
+1. [x] Lunaar, Gar Brian-Ashes-LightMyTesla
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=9WnZaElQb0U&list=RD9WnZaElQb0U&start_radio=1`
+    1. Light show: https://lightmytesla.com/dashboard/converter
+1. [x] Andrea Bocelli-Canto Della Terra-LightMyTesla
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=fvSZdBwIR6E&list=RDfvSZdBwIR6E&start_radio=1`
+    1. Light show: https://lightmytesla.com/dashboard/converter
+1. [ ] Andrea Bocelli, Sarah Brightman-Time to Say Goodbye B0.2S
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=M3mdHmhI3cs&list=RDM3mdHmhI3cs&start_radio=1`
+    1. Light show: https://lightmytesla.com/dashboard/converter
 
 
 Download commands only:
