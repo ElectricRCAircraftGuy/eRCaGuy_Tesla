@@ -30,5 +30,8 @@ Custom lock sounds, light shows, etc.
 # Scripts
 
 ```bash
+# Download a song
 ./download_song.sh --help
+# Copy light show audio from `LightShow` dir to `Music` dir
+./copy_light_show_audio.sh --help
 ```

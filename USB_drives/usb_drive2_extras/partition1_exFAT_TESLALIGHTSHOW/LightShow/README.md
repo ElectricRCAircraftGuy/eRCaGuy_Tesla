@@ -242,9 +242,9 @@ Songs:
 
 
 # TODO
-- [ ] write a bash script that will download the song and automatically rename it to my desired name. 
+- [x] write a bash script that will download the song and automatically rename it to my desired name. 
 - [ ] Is there a mechanism whereby you can interact with Chrome for me, convert the light show on lightmytesla.com, then download it, extract it, and rename the files automatically?
-- [ ] Write a bash script to automatically copy all sound files from the light show dir to the music dir. 
+- [x] Write a bash script at the repo root to automatically copy all audio files from the light show dir at `eRCaGuy_Tesla/USB_drives/usb_drive2_extras/partition1_exFAT_TESLALIGHTSHOW/LightShow` (non-recursively) to the music dir at `USB_drives/usb_drive2_extras/partition2_exFAT_TESLAMUSIC/Music`, checking hashes and not duplicating unnecessarily; using rsync is ok. If so, show the progress bar when copying. 
 
 
 # Download commands only
