@@ -32,10 +32,31 @@ yt-dlp --version  # Ensure it installed; example output: 2026.03.17
 curl -fsSL https://deno.land/install.sh | sh
 # Say "yes" to add to path; that updates your `~/.bashrc` and `~/.profile` files
 . ~/.profile  # re-source to bring in the updated PATH for Deno
+deno --version  # Ensure it installed; example output: 2.9.8
 
 # Download as MP3
 yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=us-RbY4ebZQ
 ```
+
+### Download helper
+
+Use [download_song.sh](../../../../download_song.sh) from the repository root:
+
+```bash
+./download_song.sh 'https://www.youtube.com/watch?v=trDl36m9pgA'
+./download_song.sh --name my_name 'https://www.youtube.com/watch?v=trDl36m9pgA'
+./download_song.sh --output_dir './songs' --name 'Five Little Pumpkins' \
+    'https://www.youtube.com/watch?v=trDl36m9pgA'
+./download_song.sh --help
+```
+
+By default, songs are saved in this LightShow directory's `todo` subdirectory,
+using the video title and ID. `--name my_name` saves as `my_name.mp3` instead
+(a trailing `.mp3` is also accepted). The default destination is resolved relative
+to the script, so it works from any working directory. A relative `--output_dir`
+is resolved from the current working directory. Missing directories are created.
+The helper requires `yt-dlp`, `ffmpeg`, and `ffprobe` on `PATH` and downloads only
+the specified video, even if its URL includes a playlist.
 
 
 # Links

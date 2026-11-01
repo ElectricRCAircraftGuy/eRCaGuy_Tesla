@@ -21,3 +21,14 @@ Custom lock sounds, light shows, etc.
 
 1. Try this: https://teslamotorsclub.com/tmc/posts/6857063/
 
+
+# Internal links
+
+1. [LightShow README](USB_drives/usb_drive2_extras/partition1_exFAT_TESLALIGHTSHOW/LightShow/README.md)
+
+
+# Scripts
+
+```bash
+./download_song.sh --help
+```
