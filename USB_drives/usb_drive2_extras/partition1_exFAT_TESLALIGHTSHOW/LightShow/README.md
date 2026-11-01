@@ -22,10 +22,16 @@ NB: You do NOT have to copy the `src` dir to the USB drive in the Tesla. It is f
 ```bash
 # Install yt-dlp
 sudo apt update && sudo apt install python3-pip ffmpeg -y   # Debian/Ubuntu
+python3 -m pip install --upgrade pip
 pip3 install -U yt-dlp
 . ~/.bashrc
+yt-dlp --version  # Ensure it installed; example output: 2026.03.17
 
-yt-dlp --version  # Example output: 2026.03.17
+# Install Deno
+# See: https://docs.deno.com/runtime/getting_started/installation/
+curl -fsSL https://deno.land/install.sh | sh
+# Say "yes" to add to path; that updates your `~/.bashrc` and `~/.profile` files
+. ~/.profile  # re-source to bring in the updated PATH for Deno
 
 # Download as MP3
 yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=us-RbY4ebZQ
@@ -95,6 +101,9 @@ My song naming conventions for Lumos-generated shows:
 1. `B0.9` means "Beat sensitivity: 0.9".
 1. `S` means "symmetric"; ie: "Left/Right symmetry: ON".
 1. Ex: `B0.9S` means "Beat sensitivity: 0.9" and "Left/Right symmetry: ON".
+
+Song naming for LightMyTesla-generated shows:
+1. `LMT` means "LightMyTesla-generated show".
 
 #### More songs
 
@@ -176,9 +185,49 @@ Songs:
 1. [ ] Andrea Bocelli, Sarah Brightman-Time to Say Goodbye B0.2S
     1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=M3mdHmhI3cs&list=RDM3mdHmhI3cs&start_radio=1`
     1. Light show: https://lightmytesla.com/dashboard/converter
+1. [ ] Alex Warren-Before You Leave Me
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=0CzEr7YT5oI`
+    1. Light show: TBD
+1. [x] Halloween-NightmareBeforeChristmas-This is Halloween LMT
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=ntsrWX-0FE4`
+1. [x] Halloween-AndrewGold-Spooky Scary Skeletons LMT
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=v45YO1zepHg`
+1. [x] Halloween-BobbyBorisPickett-Monster Mash LMT
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=NF69rFld9zQ`
+1. [x] Halloween-AndrewGold-The Addams Family LMT
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=41ylHgtqUYc`
+1. [x] Halloween-RayParkerJr-Ghostbusters LMT
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=Fe93CLbHjxQ`
+1. [ ] Halloween-MichaelJackson-Thriller (full)
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=4V90AmXnguw`
+1. [ ] Halloween-Rockwell-Somebody's Watching Me
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=7YvAYIJSSZY`
+1. [ ] Halloween-Noodle&Pals-Five Creepy Spiders
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=DTwA4QPtLBM&list=PL5DjNoB_EgfTONMNiSQlqnfSE1w9_iIXR`
+1. [ ] Halloween-SuperSimpleSongs-Five Little Pumpkins
+    1. MP3: `yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=trDl36m9pgA`
+1. Others, duplicated from above:
+    1. Halloween-Bad Wolves, Cranberries-Zombie
+    1. Halloween-Breaking Benjamin-So Cold
+    1. Halloween-Disturbed-Sound of Silence Cyril remix
+    1. Halloween-Metallica-Enter Sandman
+    1. Halloween-Rihanna-Disturbia
+    1. Halloween-star-wars--the-imperial-march
+    1. Halloween-stranger-things-luxide-remix
+1. [ ] 
+    1. MP3: `yt-dlp -x --audio-format mp3 `
+1. [ ] 
+    1. MP3: `yt-dlp -x --audio-format mp3 `
 
 
-Download commands only:
+# TODO
+- [ ] write a bash script that will download the song and automatically rename it to my desired name. 
+- [ ] Is there a mechanism whereby you can interact with Chrome for me, convert the light show on lightmytesla.com, then download it, extract it, and rename the files automatically?
+- [ ] Write a bash script to automatically copy all sound files from the light show dir to the music dir. 
+
+
+# Download commands only
+
 ```bash
 yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=ViP87WipSm0 &
 yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=2bHBUs-k3ac&list=RD2bHBUs-k3ac &
@@ -209,4 +258,15 @@ yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=pkvLpGfSdb8&list=RD
 yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=guTL50bjR7g&list=RDguTL50bjR7g&start_radio=1 &
 yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=5ncXRJM7Ln4&list=RD5ncXRJM7Ln4&start_radio=1 &
 yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=Q_y1rTzNY7A&list=RDQ_y1rTzNY7A&start_radio=1 &
+
+# Halloween songs:
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=ntsrWX-0FE4 &
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=v45YO1zepHg &
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=NF69rFld9zQ &
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=4V90AmXnguw &
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=Fe93CLbHjxQ &
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=7YvAYIJSSZY &
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=DTwA4QPtLBM&list=PL5DjNoB_EgfTONMNiSQlqnfSE1w9_iIXR &
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=41ylHgtqUYc &
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=trDl36m9pgA &
 ```
